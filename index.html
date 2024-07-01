@@ -4,43 +4,41 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AGE-CALCULATOR</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <div class="cont-day">
-      <P>
-        Day
-      </P>
-    </div>
-    <div class="cont-month">
-      <p>
-        Month
-      </p>
-    </div>
-    <div class="cont-year">
-      <p>
-        Year
-      </p>
-    </div> 
-  </div>
-
-  <a href="#"><img src="assets/images/favicon-32x32.png" alt=""></a>
-
   <section>
-    <div class="content">
-      <div class="ent years">
-       <p><b>Years</b></p>
+    <div class="main">
+    <div class="container">
+      <div class="conta-day">
+        <span>Day</span>
+        <input type="number" id="day">
+        
       </div>
 
-      <div class="ent-month">
-        <p><b>Months</b></p>
+      <div class="conta-month">
+        <span>Month</span>
+        <input type="number" id="month">
+        <small class="error-month"></small>
       </div>
 
-      <div class="ent-days">
-        <p><b>Days</b></p>
+      <div class="conta-year">
+        <span>Year</span>
+        <input type="number" id="year">
+        <small class="error-year"></small>
       </div>
-    
     </div>
+
+ <button class="submit-btn"><img src="assets/images/icon-arrow.svg"></button>
+
+    <div class="content">
+      <h1><span class="conte-year">--</span>Years</h1>
+      <h1><span class="conte-months">--</span>Months</h1>
+      <h1><span class="conte-days">--</span>Days</h1>
+    </div>
+    </div>
+
+    <script src="script.js"></script>
   </section>
 </body>
-</html>
+</html><small class="error-day"></small>
