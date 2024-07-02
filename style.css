@@ -26,6 +26,14 @@ body{
 .main{
   background-color: var(--White);
   border-radius: 4%;
-  font-size: 32px;
-  padding: 17px; 
+  border-bottom-right-radius: 150px;
+  padding: 30px; 
+  position:relative;
+  width: 420px;
+  max-width: 80%;
+}
+
+.container{
+border-bottom-left-radius: 5px;
+
 }
