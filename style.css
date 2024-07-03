@@ -25,7 +25,6 @@ body{
 
 .main{
   background-color: var(--White);
-  border-radius: 4%;
   border-bottom-right-radius: 150px;
   padding: 30px; 
   position:relative;
@@ -34,6 +33,27 @@ body{
 }
 
 .container{
-border-bottom-left-radius: 5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 70px;
+  padding: 10px; */
+  border-bottom-left-radius: 5px;
+  margin: 3px;
+  border: none;
+}
+
+
+
+.submit-btn{
+  border-radius: 50%;
+  background-color: var(--Purple);
+  border: none;
+}
+
+.submit-btn: hover{
+  cursor: pointer;
+  background-color: var(--Off-black);
 
 }
