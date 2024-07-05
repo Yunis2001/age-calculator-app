@@ -43,14 +43,29 @@ input{
 .container-main:focus{
   border: 2px solid var(--Purple);
 }
+small{
+  color: red;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
 .submit-btn{
+  width: 70px;
+  height: 70px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
   border-radius: 50%;
   background-color: var(--Purple);
   border: none;
+  top: 60px;
+  right: 30px;
+  position: absolute;
 }
 
 .submit-btn:hover{
-  cursor: pointer;
   background-color: var(--Off-black);
-
 } 
+
